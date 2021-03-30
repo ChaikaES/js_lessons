@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	var n = 0;
+	do {
+		var a = prompt('Играть?')
+		if (a == 'да') {
+		if ((Math.random()*6) < 1) {
+			alert('отыгрался...');
+			break;
+		}
+		n++
+	} else if (a == 'нет') {
+		alert('Ну и ладно');
+		break;
+	}
+	} while (true);
+
+	alert("Раундов сыграно:" + n)
+
+</script>
